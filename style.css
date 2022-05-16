@@ -1,6 +1,7 @@
 .headercontainer {
     display: flex;
     justify-content: space-between;
+    background-color: #77c9f8;
 }
 
 h1 img {
@@ -22,22 +23,24 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .box {
     display: flex;
     margin: 5px;
     justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 li {
     border: 2px solid;
     margin:20px;
-    width: 250px;
+    width: 200px;
     height: 200px;
 }
 
 li img {
     width:200px;
+    background-color: #f2f2f2;
 }
