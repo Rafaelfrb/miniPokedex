@@ -16,8 +16,9 @@ h1 img {
 
 main {
     background-image: url('background1.jpg');
-    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-x;
     background-attachment: fixed;
+    background-size: contain;
 }
 
 .container {
@@ -27,7 +28,6 @@ main {
 
 .box {
     display: flex;
-    margin: 5px;
     justify-content: space-around;
     padding-left: 150px;
     padding-right: 150px;
@@ -37,10 +37,38 @@ li {
     border: 2px solid;
     margin:20px;
     width: 200px;
-    height: 200px;
+    height: 220px;
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
 li img {
     width:200px;
-    background-color: #f2f2f2;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7eab70;
+}
+
+.footer-left {
+    display: flex;
+    text-decoration: solid;
+}
+
+.footer-right {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.linkedin {
+    height: 30px;
+}
+
+.github {
+    height: 30px;
 }
