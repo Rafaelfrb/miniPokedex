@@ -35,11 +35,13 @@ main {
 
 li {
     border: 2px solid;
+    border-radius: 10%;
     margin:20px;
     width: 200px;
     height: 220px;
     text-align: center;
     background-color: #f2f2f2;
+    margin-bottom: -5px;
 }
 
 li img {
@@ -73,12 +75,30 @@ footer {
     height: 30px;
 }
 
-@media (max-width: 780px){
+@media (max-width: 960px){
     .box {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .headercontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #77c9f8;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #7eab70;
     }
 }
