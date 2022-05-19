@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Pokemon GB';
+    src: url(fontes/PokemonGb-RAeo.ttf);
+}
+
 .headercontainer {
     display: flex;
     justify-content: space-between;
@@ -9,9 +14,22 @@ h1 img {
     width: 300px;
 }
 
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pokemon GB';
+    font-size: 8px;
+    padding-right: 20px;
+}
+
 .pokedeximage {
     height: 90px;
-    padding-right: 20px;
+    width: min-content;
+}
+
+.linktext {
+    margin-top: 6px;
 }
 
 main {
@@ -34,6 +52,8 @@ main {
 }
 
 li {
+    font-family: 'Pokemon GB';
+    font-size: 12px;
     border: 2px solid;
     border-radius: 10%;
     margin:20px;
