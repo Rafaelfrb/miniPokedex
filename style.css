@@ -90,7 +90,10 @@ footer {
 
 .footer-left {
     display: flex;
-    text-decoration: solid;
+    font-family: 'Pokemon GB';
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .footer-right {
