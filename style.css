@@ -46,9 +46,10 @@ main {
 
 .box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 li {
@@ -64,8 +65,19 @@ li {
     margin-bottom: -5px;
 }
 
+li:hover {
+    width: 220px;
+    height: 240px;
+    transition: 0.2s;
+}
+
 li img {
     width:200px;
+}
+
+li img:hover {
+    width: 220px;
+    transition: 0.2s;
 }
 
 footer {
@@ -95,15 +107,8 @@ footer {
     height: 30px;
 }
 
-@media (max-width: 960px){
-    .box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
+@media (max-width: 600px){
+    
     .headercontainer {
         display: flex;
         flex-direction: column;
