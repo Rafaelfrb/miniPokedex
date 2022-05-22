@@ -33,6 +33,7 @@ h1 img {
 }
 
 main {
+    background-color: #7eab70;
     background-image: url('background1.jpg');
     background-repeat: repeat-x;
     background-attachment: fixed;
